@@ -20,8 +20,8 @@ Descricao_TipoLocal varchar (30) not null);
 create table Cliente(
 idCliente int primary key not null auto_increment,
 Pessoa_idPessoa int,
-Pai_Cliente varchar(80) not null,
-Mae_Cliente varchar(80) not null,
+Pai_Cliente varchar(80),
+Mae_Cliente varchar(80),
 Nick_Cliente varchar(12) not null unique,
 Senha_Cliente varchar(8) not null unique);
 
@@ -45,15 +45,15 @@ Mail_Contato varchar(30) not null);
 
 create table jogos(
 idJogos int primary key not null auto_increment,
-Nome_Jogo varchar(30) not null,
-Descricao_Jogo varchar (120) not null,
+Nome_Jogo varchar(70) not null,
+Descricao_Jogo varchar (120),
 Genero_Jogo varchar (20) not null,
 Produtora_Jogo varchar(40) not null);
 
 create table VideoGame(
 idVideoGame int primary key not null auto_increment,
-Modelo_VideoGame varchar(20) not null,
-NS_VideoGame varchar (24) not null);
+Modelo_VideoGame varchar(50) not null,
+NS_VideoGame varchar (50) not null);
 
 create table Aluguel(
 idAluguel int primary key not null auto_increment,

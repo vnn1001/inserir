@@ -53,12 +53,13 @@ select * from Contato;
 
 insert into Endereco (TipoLocal_idTipoLocal,Pessoa_idPessoa,Logradouro_Endereco,Numero_Endereco,Bairro_Endereco,CEP_Endereco,Cidade_Endereco,Estado_Endereco) values ('3','1','Rua Demonte Risco','220','Interlagos','04814-578','Sao Paulo','SP');
 insert into Endereco (TipoLocal_idTipoLocal,Pessoa_idPessoa,Logradouro_Endereco,Numero_Endereco,Bairro_Endereco,CEP_Endereco,Cidade_Endereco,Estado_Endereco) values ('3','2','Rua Nascimento de Moraes','51','Grajau','04922-510','Sao Paulo','SP');
-insert into Endereco (TipoLocal_idTipoLocal,Pessoa_idPessoa,Logradouro_Endereco,Numero_Endereco,Complemento_Endereco,Bairro_Endereco,CEP_Endereco,Cidade_Endereco,Estado_Endereco) values ('3','3','Praça Montes Claros','15','A''Progresso','04914-000','Sao Paulo','SP');
+insert into Endereco (TipoLocal_idTipoLocal,Pessoa_idPessoa,Logradouro_Endereco,Numero_Endereco,Complemento_Endereco,Bairro_Endereco,CEP_Endereco,Cidade_Endereco,Estado_Endereco) values ('3','3','Praça Montes Claros','15','A','Progresso','04914-000','Sao Paulo','SP');
 insert into Endereco (TipoLocal_idTipoLocal,Pessoa_idPessoa,Logradouro_Endereco,Numero_Endereco,Bairro_Endereco,CEP_Endereco,Cidade_Endereco,Estado_Endereco) values ('3','4','Av. Primavera','1010','Primavera','04010-100','Sao Paulo','SP');
 insert into Endereco (TipoLocal_idTipoLocal,Pessoa_idPessoa,Logradouro_Endereco,Numero_Endereco,Bairro_Endereco,CEP_Endereco,Cidade_Endereco,Estado_Endereco) values ('3','5','Rua Marinez','2','Orion','04878-879','Sao Paulo','SP');
 select * from Endereco;
 
-insert into Aluguel (Funcionario_idFuncionario,VideoGame_idVideoGame,Cliente_idCliente,Jogos_idJogos,Valor_Aluguel,Data_Aluguel) values ('3','6','1','3','17.86','20/01/2004');
-insert into Aluguel (Funcionario_idFuncionario,VideoGame_idVideoGame,Cliente_idCliente,Jogos_idJogos,Valor_Aluguel,Data_Aluguel) values ('3','6','1','3,17.86','09/01/2013');
-insert into Aluguel (Funcionario_idFuncionario,VideoGame_idVideoGame,Cliente_idCliente,Jogos_idJogos,Valor_Aluguel,Data_Aluguel) values ('3','6','1','3','17.86','04/01/2013');
-insert into Aluguel (Funcionario_idFuncionario,VideoGame_idVideoGame,Cliente_idCliente,Jogos_idJogos,Valor_Aluguel,Data_Aluguel) values ('1','1','2','1','19.5','03/03/2013');
+insert into Aluguel (Funcionario_idFuncionario,VideoGame_idVideoGame,Cliente_idCliente,Jogos_idJogos,Valor_Aluguel,Data_Aluguel) values ('3','6','1','3','17.86','2004/01/20');
+insert into Aluguel (Funcionario_idFuncionario,VideoGame_idVideoGame,Cliente_idCliente,Jogos_idJogos,Valor_Aluguel,Data_Aluguel) values ('3','6','1','3','17.86','2013/01/19');
+insert into Aluguel (Funcionario_idFuncionario,VideoGame_idVideoGame,Cliente_idCliente,Jogos_idJogos,Valor_Aluguel,Data_Aluguel) values ('3','6','1','3','17.86','2013/01/04');
+insert into Aluguel (Funcionario_idFuncionario,VideoGame_idVideoGame,Cliente_idCliente,Jogos_idJogos,Valor_Aluguel,Data_Aluguel) values ('1','1','2','1','19.5','2013/03/03');
+select * from Aluguel;
